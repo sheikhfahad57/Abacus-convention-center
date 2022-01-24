@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abacus Convention Center</title>
+    <!----------- Bootstrap cdn Start  ---------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap cdn end -------------------------->
+
+    <!-- CSS link Start  --------------------------->
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS link End ------------------------------->
+
+    <!-- Google font Start  ------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!----------- Google font End ------------------->
+
+    <!------------ Font Awesome cdn start ------------->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!--------- Font Awesome cdn End ---------------->
+  </head>
+  <body>
+    <!-------------------- Header Start Here ---------------->
+    <header class="vh-100">
+      <!-- nav start  -->
+      <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container p-4">
+          <h4 class="fw-bolder">Abacus Convention Center </h4>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </section>
+      <!-- nav end  -->
+      <!-- banner Start  -->
+      <section class="container-fluid ">
+        <div id="carouselExampleDark" class="carousel carousel-white slide " data-bs-ride="carousel">
+          <div class="carousel-indicators carousel-dark  ">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/images/banner.png" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/images/banner2.png" class="d-block w-100 h-100" alt="...">
+           
+            </div>
+            <div class="carousel-item">
+              <img src="images/images/banner3.png" class="d-block w-100 h-100" alt="...">
+             
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="carousel-caption  mb-lg-3  ">
+          <h1 class="fs-1 text-white">The perfect venue for your <br> next event</h1>
+          <p class="fw-normal">Your Happiness is Our Pride! <br>“If we look at the world with a love of life, the world will reveal its beauty to us.”</p>
+          <a href="https://www.bashundharaconvention.com/">
+          <button class="btn bg-white text-primary fw-bolder px-4 header-btn">
+            Book Now
+          </button>
+          </a>
+        </div>
+      </section>
+    
+    <!-- banner end -->
+    </header>
+    <!-------------------- Header end  Here --------------->
+
+    <!------------------ Main Start here ------------->
+    <main>
+      <!-- Every moment is precious start -->
+      <section class="container mt-md-3 every-moment-section  ">
+        <div class="row mt-lg-5 mb-lg-5">
+          <div class="col-lg-6 ">
+            <img src="images/images/wedding.png" style="max-width: 100%;" alt="">
+          </div>
+          <div class="col-lg-6 p-4 mt-lg-5 mt-xs-2 position-relative">
+            
+            <h2 class="fw-bold">Every Moment is precious</h2>
+            <div class="toast position-absolute end-0 show" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="d-flex">
+                <div class="toast-body">
+                  <i class="fas fa-gift me-2"></i>20% off on next booking
+               </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+            </div>
+            
+            <p>"If the bride and groom are relaxed and happy,
+               everything flows from there. Big or small, formal
+                or informal - there is no right way. 
+                The most important thing is that the couple feels loved and enjoys their big day."</p>
+            <button class="btn btn-primary fw-bold d-inline-block">
+              Explore Our Album <img src="images/icons/arrow-forward 1.svg" alt="">
+            </button>    
+          </div>
+        </div>
+      </section>
+      <!-- Every moment is precious end  -->
+
+      <!-- package  section start  -->
+      <section class="container">
+        <div class="row">
+          <h3 class="text-center fw-bold mb-sm-5 mt-5 ">Our Package</h3>
+          <div class="col-lg-3 mt-3 ">
+            <div class="card border-1">
+              <div class="card-body">
+                <h1 class="card-title fw-bold fs-2">$300</h1>
+                <h2 class="fw-bold fs-4 mt-3 mb-3 ">Business Fair</h2>
+                <p class="text-muted"><small> For most Business event <br> like book fair, craft fair.</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Limited Space Access</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Security Facility</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Event Supppor</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Decoration design</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Per day bill</small></p>
+                
+                <div class="d-flex justify-content-center">               
+                  <a href="#" class="btn  rounded-pill px-3 mt-3 text-primary fw-bold choose-plan-btn" >Choose Plan</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3">
+            <div class="card border-1">
+              <div class="card-body">
+                <h1 class="card-title fw-bold fs-2">$500</h1>
+                <h2 class="fw-bold fs-4 mt-3 mb-3">wedding Basic</h2>
+                <p class="text-muted"><small> For wedding with basic <br> plan and limited .</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Full Space Access</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Food management</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Management Suppport</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Decoration design</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Billed as shipt</small></p>
+                
+                <div class="d-flex justify-content-center">               
+                  <a href="#" class="btn  rounded-pill px-3 mt-3 text-primary fw-bold choose-plan-btn">Choose Plan</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3 mt-md-0">
+            <div class="card border-0 bg-primary text-white package-card ">
+              <span class="position-absolute top-0 hot-badge translate-middle rounded-pill badge bg-danger"> Hot</span>
+              
+              <div class="card-body position-relative  ">
+                <h1 class="card-title fw-bold fs-2 text-white">$800</h1>
+                <h2 class="fw-bold fs-4 mt-3 mb-3 text-white">Wedding Plus</h2>
+                <p class="text-white m-1"><small> For most Wedding with <br> Premium Plans.</small></p>
+                <p class=" m-1 text-white"><small> <i class="far fa-check-circle me-2"></i>Full Space Access</small></p>
+                <p class="text-white m-1"><small> <i class="far fa-check-circle me-2"></i>Dedicated Team</small></p>
+                <p class="text-white m-1"><small> <i class="far fa-check-circle me-2"></i>Buffet Food</small></p>
+                <p class="text-white m-1"><small> <i class="far fa-check-circle me-2"></i>Premium Decoration</small></p>
+                <p class="text-white m-1"><small> <i class="far fa-check-circle me-2"></i>Pay as plan.</small></p>
+                
+                <div class="d-flex justify-content-center">               
+                  <a href="#" class="btn bg-white rounded-pill px-3 mt-3 text-primary fw-bold">Choose Plan</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-3">
+            <div class="card border-1">
+              <div class="card-body">
+                <h1 class="card-title fw-bold fs-2">$1200</h1>
+                <h2 class="fw-bold fs-4 mt-3 mb-3">Corporate Event</h2>
+                <p class="text-muted"><small> For most Corporate Business event.</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Full Space Access </small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Dedicated service team</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Event Suppport</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i>Premium Design</small></p>
+                <p class="text-muted m-1"><small> <i class="far fa-check-circle me-2"></i> Pay as plan </small></p>
+                
+                <div class="d-flex justify-content-center">               
+                  <a href="#" class="btn  rounded-pill px-3 mt-3 text-primary fw-bold choose-plan-btn">Choose Plan</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      <!-- package section End  -->
+
+      <!-- happy clients says section start  -->
+      <section class="container mt-3 mt-sm-5">
+          <div class="row">
+            <h3 class="text-center fw-bold mb-5 mt-5">
+              Happy Clients Says
+            </h3>
+            <div class="col-sm-4 mt-2 mt-md-0">
+              <div class="card border-0 shadow" style="height: 310px;">
+                <div class="card-body ">
+                  <div class="d-flex justify-content-center flex-column align-items-center">
+                  <p class="text-muted text-center">Slate helps you see how <br>
+                    many more days you need <br>
+                    to work to reach your financial <br>
+                    goal for the month and year.</p>
+                  <Div>
+                    <img src="images/images/person 1.png" alt="" class="m-2">
+                  </Div>
+                  <div>
+                  <h6 class="fw-bold">Alex Rafi</h6>
+                  </div>
+                  <div>
+                  <h6 class="text-muted">Banker</h6>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-md-0 mt-3">
+              <div class="card border-0 shadow" style="height: 310px;">
+                <div class="card-body ">
+                  <div class="d-flex justify-content-center flex-column align-items-center">
+                  <p class="text-muted text-center">Good Luck and Best Wishes  <br>
+                    During special occasions such as  weddings, whether within family or friends.
+  
+                  <Div>
+                    <img src="images/images/person 2.png" alt="" class="m-2">
+                  </Div>
+                  <div>
+                  <h6 class="fw-bold">Ali hossain</h6>
+                  </div>
+                  <div>
+                  <h6 class="text-muted">Programmer</h6>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-3 mt-md-0">
+              <div class="card border-0 shadow" style="height: 310px;">
+                <div class="card-body ">
+                  <div class="d-flex justify-content-center flex-column align-items-center">
+                  <p class="text-muted text-center">I should like to place on record <br> my very best wishes for your future success and efficacy in the post that you occupy.</p>
+              
+                  <Div>
+                    <img src="images/images/person 3.png" alt="" class="m-2">
+                  </Div>
+                  <div>
+                  <h6 class="fw-bold">Sheikh Fahad</h6>
+                  </div>
+                  <div>
+                  <h6 class="text-muted">Engineer</h6>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+     
+      <!-- happy clients says section end -->
+
+      <!-- frequently asked question section start  -->
+      <section class="container mt-5">
+        <div class="row">
+          <h3 class="text-center fw-bold mb-5 mt-5">Frequently Asked Question </h3>
+          <div class="col-lg-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                   <p class="fw-bold">What's the difference between event design <br> and event planing? </p>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                   <p class="fw-bold">
+                     How early do we need to start planning an event?
+                   </p>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">“Defining the value of your event means putting it into dollars and cents,” says Eventbrite Senior Technical Customer Success Manager Shirene Niksadat. Your revenue projections are your proofpoint that your party planning business will make money.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <P class="fw-bold">
+                      What is your refund and cancelletion policy?
+                    </P>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Refund policies are different depending on what plan you bought. to get more information contact with our Manager.
+
+                    You may get an </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <p class="fw-bold">
+                      How do you keep budgets on track?
+                    </p>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Keeping track of your expenses on a regular basis is an important part of managing your overall finances. Not only does it help you see where your money goes, but it can also reveal to you your spending patterns.</div>
+                </div>
+              </div>
+              </div>
+              </div>
+
+          </div>
+          <div class="col-lg-6 p-3">
+            <div><img src="images/images/people.png" alt="" style="max-width: 100%;"></div>
+          </div>
+        </div>
+      </section>
+      <!-- frequently asked question section end -->
+
+      <!-- specia service section start  -->
+      <section class="container mt-5 mb-4">
+        <div class="row">
+          <h3 class="text-center fw-bold mt-5 mb-5">Our Special Service</h3>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="w-50" style="width: 10px;" src="images/icons/3500-Car-Parking.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">3500+ Car Parking Facility </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Highly-Trained.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Highly Trained Security personal </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Guest-Transportation.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Guest Transportation </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Wifi.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Wifi </p>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="container mt-2 mb-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Service.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Dedicated team for All Section </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/CCTV-Coverage.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">CCTV Coverage </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Well-Trained-Service-Staffs.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Well Trained Service Staffs </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card bg-danger">
+              <div class="card-body special-service-card">
+                <h5 class="card-title d-flex justify-content-center"><img class="" src="images/icons/Modern-Amenities.png" alt=""></h5>
+                <p class="card-text fw-bold text-white text-center">Modern Amenities </p>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- specia service section end -->
+      
+ 
+    <!------------------ Main end here ------------->
+
+    <!----------------- Footer Start here ------------->
+    <footer>
+      <section  class="container-fluid bg-black d-flex flex-column flex-lg-row justify-content-between align-items-center p-lg-5 mt-5  " style="height:280px;">
+
+        <div>
+          <p class="text-white">&copy;2022 All right reserved.</p>
+        </div>
+        <div>
+          <h5 class="text-white">Get the app</h5>
+          <div class="d-flex flex-column">
+            <a href="https://apple.com/app-store/" class="mt-1"><img src="images/icons/App Store Badge.png" alt=""></a>
+            <a href="https://play.google.com/store/apps" class="mt-2"><img src="images/icons/Google Play Badge.png" alt=""></a>
+          </div>
+        </div>
+        
+        
+        
+        
+      </section>
+    </footer>
+    <!----------------- Footer end here ------------->
+    <!-- JS Bootstrap bundle link Start  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS Bootstrap bundle link End -->
+  </body>
+</html>

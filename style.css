@@ -1,0 +1,20 @@
+/* Common styles Start here  */
+body {font-family: "Poppins", sans-serif;}
+.header-btn:hover {transform: scale(1.1) !important; transition: 1s;}
+.carousel-inner,.carousel-item,.carousel-item.active {height: calc(100vh - 100px);}
+.package-card {border-radius: 1rem;}
+.special-service-card {height: 210px;}
+.choose-plan-btn {background-color: rgba(221, 230, 144, 0.651);}
+.hot-badge {right: 0px;}
+h1, h2, h3 {color: #231d4f;}
+/* // Extra Small devices ) */
+@media (max-width: 576px) {
+  nav h4 {font-size: 0.95rem;}
+  .col-sm-3 {margin-bottom: 1rem;}
+  .every-moment-section { margin-top: 2rem;}
+  footer .container { padding: 3rem;font-size: 0.8rem;}
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  nav h4 {font-size: 1.5rem;}
+}
